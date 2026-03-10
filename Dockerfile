@@ -13,8 +13,7 @@ ENV CODE_SERVER_VERSION=$CODE_SERVER_VERSION
 LABEL CODE_SERVER_VERSION=$CODE_SERVER_VERSION
 LABEL maintainer="Jonathan Gao <gsmlg.com@gmail.com>"
 
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="/docker/editor-server"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/editor-server"
 LABEL org.opencontainers.image.title="Editor-Server"
 LABEL org.opencontainers.image.authors="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL org.opencontainers.image.description="Jonathan Gao's personal code-server, with his common dev envrionment."
